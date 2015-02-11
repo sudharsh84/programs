@@ -64,7 +64,7 @@ public class Pattern {
 			}
 	}
 		/**
-		 * The output of this method drives the core logic of how many times the array need to be traversed to make sure all elements are covered.
+		 * The output of this method drives the core logic of how many traversals are required to make sure all elements are covered.
 		 * Here the logic is, I am considering each of the traversal in a particular direction as a line , 
 		 * for ex: in 3X3 matrix, the number of lines to be traversed are 5 and in a 4X3 matrix the number of lines traversed in 6, and so on. 
 		 * 
